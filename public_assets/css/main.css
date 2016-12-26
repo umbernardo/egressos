@@ -1,0 +1,60 @@
+h1, h2, h3{
+	text-align:left;
+}
+address{
+	text-align: left;
+}
+footer{
+	background-color: #A3CF64;
+	margin-top: 50px;
+	color: #FFF;
+}
+a { 
+	font-size:14px; 
+	color:#FFF; 
+	text-decoration: none; 
+  transition:color 0.2s; 
+  text-align:left;
+}
+a:hover { 
+	color: #185027; 
+	text-decoration:none;
+}
+.topo{
+	padding:20px 0px;
+}
+.footer-bottom{
+	background-color:#185027;
+	padding-top: 10px;
+	margin-top:20px;
+	color:#FFF;
+}
+.logo-footer{
+	width:200px;
+	float:left;
+	margin-top: 24px;
+}
+.sidebar-user ul{
+	margin-top:20px;
+	padding-left:0px;
+}
+.sidebar-user li{
+	display: block;
+  margin-right: 7px;
+  margin-bottom: 12px;
+}
+.sidebar-user li a {
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    color: #999999;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    padding: 3px 7px;
+}
+.sidebar-user li a:hover{
+	color: #000000;
+}
+.amigos a h3{
+	color: #000!important;
+}

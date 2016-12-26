@@ -1,0 +1,36 @@
+<?php
+$this->layout('layout::main_template', ['title' => 'Homepage']);
+?>
+
+<div class="col-md-6">
+    <h1>Sistema de Egressos</h1>
+    <h2>Cadastro de novos Egressos</h2>
+    <p>
+        Acesse o link e preencha o formulário para realizar o seu cadastro para acessar informações exclusivas
+    </p>
+    <a href="/cadastrar" class="btn btn-default">
+        Efetuar Cadastro
+    </a>
+</div>
+<div class="col-md-6">
+    <h1>Login</h1>
+    <h2>Se já é cadastrado acesse sua área de egresso</h2>
+    <form class="" method="post" action="<?= $this->url(array('login'))?>">
+        <div class="form-group">
+            <label for="email" class="cols-sm-2 control-label">Email</label>
+            <input type="text" class="form-control" name="email" id="email" placeholder="Seu e-mail"/>
+        </div>
+
+        <div class="form-group">
+            <label for="password" class="cols-sm-2 control-label">Senha</label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="Sua senha"/>
+        </div>
+
+        <div class="form-group ">
+            <button type="submit" class="col-md-5 pull-left btn btn-danger btn-lg login-button">Esqueci minha senha
+            </button>
+            <button type="submit" class="col-md-5 pull-right btn btn-primary btn-lg login-button">Acessar o sistema
+            </button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,19 @@
+{
+    "name": "cupcakeframework/cupcake4",
+    "description": "CupCake 4 Framework",
+    "require": {
+        "php": ">=5.3",
+        "phpmailer/phpmailer": "5.2.10",
+        "symfony/routing": "^2.7",
+        "symfony/http-foundation": "^2.7",
+        "container-interop/container-interop": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cupcake\\": "src/"
+        }
+    }
+}

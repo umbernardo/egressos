@@ -1,0 +1,26 @@
+<?php
+$this->layout('layout::main_template');
+?>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>
+            Oops...
+        </h1>
+
+        <p>
+            Ocorreu um problema em nossos servidores e sua mensagem não conseguiu chegar até nós.
+        </p>
+
+        <p>
+            Por favor tente novamente. Se o erro persistir entre em contato através do email
+            : <?= $siteInfo->email_contato ?>
+        </p>
+
+        <p>
+            <a class="btn btn-primary btn-lg" href="javascript:history.go(-1)" role="button">
+                Continuar navegando
+            </a>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+<?php
+$this->layout('layout::main_template', ['title' => 'Seu Perfil']);
+?>
+<div class=row>
+    <div class="col-sm-12">
+        <h1>Sistema de Egressos</h1>
+    </div>
+    <div class="col-md-4 sidebar-user">
+        <?php $this->insert('partials::sidebar-user', ['usuario' => $usuario]) ?>
+    </div>
+    <div class="col-md-8">
+        <?php $this->insert('partials::banner') ?>
+        <h2>Resumo </h2>
+        <p>
+            <?= $usuario->resumo ?>
+        </p>
+        <?php
+        $interessesRaw = $usuario->interesses;
+        if (false == empty($interessesRaw)) {
+            $interesses = explode(',', $usuario->interesses);
+            ?>
+            <h2>Interesses </h2>
+            <ul>
+                <?php
+                foreach ($interesses as $interesse) {
+                    ?>
+                    <li><?= $interesse ?></li>
+                    <?php
+                }
+                ?>
+            </ul>
+            <?php
+        }
+        ?>
+    </div>
+</div>

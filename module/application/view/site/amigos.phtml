@@ -1,0 +1,110 @@
+<?php
+$this->layout('layout::main_template', ['title' => 'Amigos']);
+/** @var $usuario \Egressos\Application\Model\UserModel */
+
+?>
+<div class=row>
+    <div class="col-sm-12">
+        <h1>Sistema de Egressos</h1>
+    </div>
+    <div class="col-md-4 sidebar-user">
+        <?php $this->insert('partials::sidebar-user', ['usuario' => $usuario]) ?>
+    </div>
+    <div class="col-md-8">
+        <?php $this->insert('partials::banner') ?>
+        <h2>Solicitações de amizade</h2>
+        <div class="amigos row">
+            <?php
+            $amigos = $usuario->getAmigos();
+            $solicitacoes = $usuario->getSolicitacoesDeAmizade();
+            $solicitacoesEnviadas = $usuario->getSolicitacoesEnviadas();
+            if (empty($solicitacoes)) {
+                ?>
+                <p>
+                    No momento você não possui nenhuma solicitação de amizade
+                </p>
+                <?php
+            } else {
+                foreach ($solicitacoes as $amigo) {
+                    ?>
+                    <div class="col-sm-4 col-md-3 col-xs-6">
+                        <a href="<?= $this->url(['perfil', $amigo->getMd5Email()]) ?>" alt="">
+                            <div class="image">
+                                <img src="<?= $amigo->getAvatar(200) ?>" class="img-rounded img-responsive" alt="">
+                            </div>
+                            <h2><?= $amigo->nome ?></h2>
+                        </a>
+                        <a href="<?= $this->url(['aceitar-amigo', $amigo->solicitacao->id]) ?>"
+                           class="btn btn-default btn-alert">
+                            Aceitar solicitação
+                        </a>
+                    </div>
+                    <?php
+                }
+                foreach ($solicitacoesEnviadas as $amigo) {
+                    ?>
+                    <div class="col-sm-4 col-md-3 col-xs-6">
+                        <a href="<?= $this->url(['perfil', $amigo->getMd5Email()]) ?>" alt="">
+                            <div class="image">
+                                <img src="<?= $amigo->getAvatar(200) ?>" class="img-rounded img-responsive" alt="">
+                            </div>
+                            <h2><?= $amigo->nome ?></h2>
+                            <p>Aguardando confirmação</p>
+                        </a>
+                    </div>
+                    <?php
+                }
+
+
+            }
+            ?>
+        </div>
+        <hr>
+        <h2>Amigos</h2>
+        <div class="amigos row">
+
+            <?php
+            if (empty($amigos)) {
+                ?>
+                <p>
+                    No momento você não tem amigos :(
+                </p>
+                <?php
+            } else {
+                foreach ($amigos as $amigo) {
+                    //Exibir as solicitações primeiro
+                    if (true == $amigo->solicitacaoAceita) {
+                        ?>
+                        <div class="col-sm-4 col-md-3 col-xs-6">
+                         <a href="<?= $this->url(['perfil', $amigo->getMd5Email()]) ?>" alt="">
+                            <div class="image">
+                                <img src="<?= $amigo->getAvatar(200) ?>" class="img-rounded img-responsive" alt="">
+                            </div>
+                            <h3><?= $amigo->nome ?></h3>
+                            </a>
+                        </div>
+                        <?php
+                    }
+                }
+            }
+            ?>
+        </div>
+        <hr>
+        <div class="row">
+            <form action="<?= $this->url(['buscar-amigos']) ?>" method="get">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label for="q" class="control-label">Digite abaixo o nome de quem procura:</label>
+                        <input type="text" class="form-control" name="q"
+                               id="q" placeholder="Busque um amigo"/>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-lg btn-success">
+                            Buscar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

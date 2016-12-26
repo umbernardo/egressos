@@ -1,0 +1,49 @@
+<?php $this->layout('error::erro_template') ?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1> Oops! </h1>
+
+                <h2>
+                    <?php
+                    if (true === $debug) {
+                        ?>
+                        Erro <?= $exception->getCode() ?>
+                        <?php
+                    } else {
+                        ?>
+                        Ocorreu um erro interno no servidor.
+                        <?php
+                    }
+                    ?>
+                </h2>
+
+                <div class="error-details">
+                    <?php
+                    if (true === $debug) {
+                        ?>
+                        <?= $exception->getMessage() ?>
+                        <?= var_dump($others) ?>
+                        <?php
+                    } else {
+                        ?>
+                        Voltar para a <a href="<?= $this->url(array('home')) ?>" class="btn btn-primary btn-lg">
+                            <span class="glyphicon glyphicon-home"></span>
+                            Home
+                        </a>
+                        <?php
+                    }
+                    ?>
+                </div>
+                <div class="error-actions">
+                    <?php
+                    if (true === $debug) {
+                        var_dump($exception->getTraceAsString());
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

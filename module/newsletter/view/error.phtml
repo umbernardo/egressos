@@ -1,0 +1,30 @@
+<?php
+$this->layout('layout::main_template');
+
+/** @var \Cupcake\Messenger\FlashMessenger $messenger */
+if ($messenger->existeMensagens()) {
+    $mensagens = $messenger->listarMensagens();
+    ?>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>
+                Oops !
+            </h1>
+
+            <?php
+            foreach ($mensagens as $k) {
+                ?>
+                <p class="text-<?= $k['classe'] ?>"><?= $k['mensagem'] ?></p>
+                <?php
+            }
+            ?>
+            <p>
+                <a class="btn btn-primary btn-lg" href="<?= $this->url(array('home')) ?>" role="button">
+                    Voltar
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <?php
+}

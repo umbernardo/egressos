@@ -1,0 +1,623 @@
+[16-Nov-2016 16:59:49 Brazil/East] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/umbernardo/public_html/egressos/src/module/application/config/config.php on line 29
+[16-Nov-2016 17:00:38 Brazil/East] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/umbernardo/public_html/egressos/src/module/application/config/config.php on line 29
+[16-Nov-2016 17:01:57 Brazil/East] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/umbernardo/public_html/egressos/src/module/application/config/config.php on line 29
+[17-Nov-2016 13:32:36 Brazil/East] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/umbernardo/public_html/egressos/src/module/application/config/config.php on line 29
+[17-Nov-2016 21:05:19 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:34:30 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:35:13 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:35:49 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:38:34 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:38:44 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:38:46 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:38:46 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:38:46 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:40:08 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (2)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:41:21 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:41:32 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:41:45 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:41:56 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:42:05 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:42:20 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:42:34 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:42:42 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (2)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:42:57 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:43:15 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:43:49 Brazil/East] PHP Fatal error:  Uncaught exception 'Cupcake\Service\Exception\NotFoundException' with message 'Service "teste" not found' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php:73
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Application/Application.php(63): Cupcake\Service\ServiceManager->get('teste')
+#1 /home/umbernardo/public_html/egressos/src/index.php(5): Cupcake\Application\Application->run()
+#2 {main}
+  thrown in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php on line 73
+[18-Nov-2016 10:44:32 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(78): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(78): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:44:56 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
+Stack trace:
+#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
+#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(78): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#2 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/ObjectMapper/Factory/ObjectMapperFactory.php(21): Cupcake\Service\ServiceManager->get('PDO')
+#3 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(78): Cupcake\ObjectMapper\Factory\ObjectMapperFactory->__invoke(Object(Cupcake\Service\ServiceManager))
+#4 /home/umbernardo/public_ht in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27
+[18-Nov-2016 10:51:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/src/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 15:29:57 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/src/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 15:30:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 15:33:42 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 15:34:17 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:10:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:10:42 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:10:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:10:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:10:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:10:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:16:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:21:57 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:23:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:25:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:26:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:31:05 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:31:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:33:27 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:35:30 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:37:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:37:23 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:38:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:38:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:42:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:44:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:45:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:46:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:48:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:48:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:48:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 16:48:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 18:19:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 18:20:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:15:39 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:21:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:21:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:22:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:22:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:16 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:23:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:24:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 19:25:07 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 20:43:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 20:48:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 20:54:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:00:07 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:00:10 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:02:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:03:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:04:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:12:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:12:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:13:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:15:27 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:16:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:16:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:16:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[18-Nov-2016 21:16:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[28-Nov-2016 13:00:15 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 09:26:07 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 09:26:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 09:26:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 09:32:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 09:33:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:24:40 Brazil/East] PHP Parse error:  syntax error, unexpected ',' in /home/umbernardo/public_html/egressos/module/application/src/Controller/UsuarioController.php on line 76
+[29-Nov-2016 10:25:07 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:26:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:28:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:29:33 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:30:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:33:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:37:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:44:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:44:31 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:44:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:50:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:52:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 10:55:20 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:04:10 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:04:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:04:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:05:08 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:06:13 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:07:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:09:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:10:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:10:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:11:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 11:35:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 16:21:27 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 19:23:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[29-Nov-2016 19:23:39 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[30-Nov-2016 19:14:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[30-Nov-2016 19:14:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[04-Dec-2016 23:14:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:01:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:01:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:05:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:05:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:06:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:06:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:08:19 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:09:31 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:10:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:10:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:11:48 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:12:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:21:16 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:32:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:33:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:34:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:35:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:36:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:37:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:37:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:38:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:40:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:45:15 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:45:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:45:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:46:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:47:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:48:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:49:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:50:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:51:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 09:51:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 10:25:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[05-Dec-2016 11:17:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:18:24 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:18:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:19:05 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:19:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:19:15 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:19:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[09-Dec-2016 21:19:57 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:04:48 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:04:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:05:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:05:49 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:05:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:08 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:20 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:06:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:09:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:09:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:09:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:09:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:05 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:16 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:40 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:10:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:11:13 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:12:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:13:39 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:13:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[10-Dec-2016 09:14:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 08:52:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:27:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:28:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:28:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:23 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:30 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:39 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:42 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:29:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:30:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:30:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:30:20 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:30:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:30:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:30:42 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:31 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:40 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:48 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:34:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:35:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:36:07 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:36:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:37:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:37:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[12-Dec-2016 10:37:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[14-Dec-2016 11:44:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[14-Dec-2016 11:45:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[14-Dec-2016 12:34:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[14-Dec-2016 12:36:04 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[14-Dec-2016 12:36:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:45:01 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[15-Dec-2016 10:45:04 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[15-Dec-2016 10:45:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:45:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:45:20 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:45:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:48:05 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:49:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:49:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:49:40 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 10:49:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:00:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:33 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:39 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:03:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 11:04:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:36:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:36:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:37:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:37:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:37:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:38:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:38:20 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:39:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:40:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:40:24 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:40:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:41:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:41:33 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:43:19 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:44:04 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:44:13 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:45:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:45:42 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:45:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:45:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:46:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:46:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:05 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:47:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:51:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 12:52:49 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[15-Dec-2016 13:01:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:29:37 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[20-Dec-2016 16:29:40 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:29:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:29:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:30:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:30:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:30:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:30:20 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:30:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:31:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:08 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:17 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:33 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:32:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:38:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:38:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:38:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:38:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:38:57 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:39:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:40:07 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:40:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[20-Dec-2016 16:40:19 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:49:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:49:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:49:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:49:57 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:49:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:08 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:27 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:50:48 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:15 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:23 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:49 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:57 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:52:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:53:08 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:55:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:55:30 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:55:49 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:55:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:56:45 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:56:50 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:56:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:57:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:57:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:57:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:58:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:58:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:58:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:58:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:58:30 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 15:58:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:01:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:01:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:02:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:04:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:04:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:04:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:04 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:14 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:23 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:31 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:41 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:05:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:14:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:14:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:14:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:16:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:17:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:17:04 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:18:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:18:55 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:19:04 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:28:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:31:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:31:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:32:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:32:49 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:32:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:33:00 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:33:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:33:33 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:33:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:33:44 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:33:53 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:36:15 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:36:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:38:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:38:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:38:17 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:38:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:38:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:38:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:40:30 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:40:39 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:41:04 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:44:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:44:52 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:44:58 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:45:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:46:10 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:46:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:46:34 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[21-Dec-2016 16:46:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 13:55:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:14:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:14:56 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:14:59 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:15:01 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:15:11 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:15:18 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:15:49 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:45:08 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:49:42 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[22-Dec-2016 17:49:45 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[22-Dec-2016 17:49:47 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[22-Dec-2016 17:49:48 Brazil/East] PHP Fatal error:  Call to a member function redirect() on null in /home/umbernardo/public_html/egressos/module/application/src/Controller/CredentialsRequiredController.php on line 42
+[22-Dec-2016 17:49:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:50:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:52:35 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:53:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:53:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:53:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:55:27 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:57:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:58:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:58:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:59:02 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:59:17 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:59:43 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 17:59:46 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:00:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:00:17 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:00:26 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:02:15 Brazil/East] PHP Fatal error:  Call to undefined method Egressos\Application\Model\UserModel::getEmail() in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:02:20 Brazil/East] PHP Fatal error:  Call to undefined method Egressos\Application\Model\UserModel::getEmail() in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:02:22 Brazil/East] PHP Fatal error:  Call to undefined method Egressos\Application\Model\UserModel::getEmail() in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:02:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:03:15 Brazil/East] PHP Fatal error:  Call to undefined method Egressos\Application\Model\UserModel::getEmail() in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:03:30 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:05:28 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:05:28 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:05:32 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:05:32 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:06:03 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/umbernardo/public_html/egressos/module/application/view/partials/sidebar-user.phtml on line 27
+[22-Dec-2016 18:06:03 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:09:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:09:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:11:31 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:11:40 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:11:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:13:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:13:29 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:13:37 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:14:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:15:27 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:16:38 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:16:42 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:20:10 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:20:51 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:20:54 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:21:12 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:21:22 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:21:25 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:23:21 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:25:09 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 18:28:47 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 20:24:06 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10
+[22-Dec-2016 20:48:36 Brazil/East] PHP Notice:  Undefined variable: metaDescription in /home/umbernardo/public_html/egressos/module/application/view/layout/main_template.phtml on line 10

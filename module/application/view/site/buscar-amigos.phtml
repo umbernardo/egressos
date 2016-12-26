@@ -1,0 +1,66 @@
+<?php
+$this->layout('layout::main_template', ['title' => 'Buscar Amigos']);
+/** @var $usuario \Egressos\Application\Model\UserModel */
+?>
+<div class=row>
+    <div class="col-sm-12">
+        <h1>Sistema de Egressos</h1>
+    </div>
+    <div class="col-md-4 sidebar-user">
+        <?php $this->insert('partials::sidebar-user', ['usuario' => $usuario]) ?>
+    </div>
+    <div class="col-md-8">
+        <?php $this->insert('partials::banner') ?>
+        <h2>Amigos </h2>
+        <div class="row">
+            <form action="<?= $this->url(['buscar-amigos']) ?>" method="get">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label for="q" class="control-label">Digite abaixo o nome de quem procura:</label>
+                        <input type="text" class="form-control" name="q"
+                               id="q" value="<?= $query ?>" placeholder="Busque um amigo"/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-lg btn-success">
+                        Buscar
+                    </button>
+                </div>
+            </form>
+        </div>
+        <hr>
+        <h2>Resultado da busca por "<?= $query ?>"</h2>
+        <div class="amigos">
+            <?php
+            /** @var \Egressos\Application\Model\UserModel $item */
+            foreach ($lista as $item) {
+                ?>
+                <div class="col-sm-4 col-md-3 col-xs-6">
+                    <a href="<?= $this->url(['perfil', $item->getMd5Email()]) ?>" alt="">
+                        <div class="image">
+                            <img src="<?= $item->getAvatar(200) ?>" class="img-rounded img-responsive" alt="">
+                        </div>
+                        <h3><?= $item->nome ?></h3>
+                    </a>
+                    <?php
+                    //Se já for amigo ou se ja tiver uma solicitação de amizade enviada, não aparece o botão de adicionar amigo
+                    if (false == $usuario->isFriendOf($item)) {
+                        ?>
+                        <a href="<?= $this->url(['adicionar-amigo', $item->id]) ?>" class="btn btn-default btn-alert">
+                            Adicionar aos amigos
+                        </a>
+                        <?php
+                    } else {
+                        ?>
+                        <p>Aguardando confirmação</p>
+                        <?php
+                    }
+                    ?>
+                </div>
+                <?php
+            }
+            ?>
+
+        </div>
+    </div>
+</div>

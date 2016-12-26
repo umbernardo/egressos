@@ -1,0 +1,8 @@
+<?php
+if ($banner) {
+    ?>
+    <a href="<?= $banner->url ?>" <?= $banner->nova_janela == 'Sim' ? 'target="_blank"' : '' ?>>
+        <img src="<?= $banner->imagem->caminho1 ?>" alt="Nome do egresso">
+    </a>
+    <?php
+}

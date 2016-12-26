@@ -1,0 +1,65 @@
+<?php
+if (false == empty($paginacao)) {
+    if ($paginacao->qtd_registros != 0) {
+        $total_paginas = $paginacao->total / $paginacao->qtd_registros;
+    } else {
+        $total_paginas = 2;
+    }
+    $prev = $paginacao->pagina - 1;
+    $next = $paginacao->pagina + 1;
+    $categoria = '';
+    $total_paginas = ceil($total_paginas);
+    $painel = "";
+    $f = $paginacao->pagina + 2;
+    $f = ($f > $total_paginas) ? $total_paginas : $f;
+    $n = $paginacao->pagina - 2;
+    $n = ($n < 1) ? 1 : $n;
+    if ($n == 1 && $total_paginas > 5) {
+        $f = 5;
+    } else {
+        $f = $paginacao->pagina + 2;
+        $f = ($f <= $total_paginas) ? $f : $total_paginas;
+    }
+
+    /* Montagem da paginação em si conforme classes do bootstrap */
+    if ($total_paginas > 1) {
+        ?>
+        <ul class="pagination">
+            <?php if ($prev != $paginacao->pagina && $prev >= 1) {
+                ?>
+                <li>
+                    <a aria-label="Anterior" rel="prev" href="<?= $paginacao->url . '/' . $prev ?>">Anterior</a>
+                </li>
+                <?php
+            }
+            for ($x = 1; $x <= $total_paginas; $x++) {
+                if ($x == $paginacao->pagina) {
+                    ?>
+                    <li class="active">
+                        <a href="#">
+                            <?= $x ?>
+                        </a>
+                    </li>
+                    <?php
+                } else {
+                    ?>
+                    <li>
+                        <a href="<?= $paginacao->url . '/' . $x ?>">
+                            <?= $x ?>
+                        </a>
+                    </li>
+                    <?php
+                }
+            }
+            if ($next != $paginacao->pagina && $next <= $total_paginas) {
+                ?>
+                <li>
+                    <a aria-label="Próximo" href="<?= $paginacao->url . '/' . $next ?>">Próximo</a>
+                </li>
+                <?php
+            }
+            ?>
+        </ul>
+        <?php
+    }
+}
