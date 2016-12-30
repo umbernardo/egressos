@@ -3,14 +3,17 @@
 ?>
 <img src="<?= $usuario->getAvatar() ?>" alt="<?= $usuario->nome ?>">
 <h2><?= $usuario->nome ?></h2>
+
+
 <?php
+/*
 if ($usuario->receber_feed == 'Sim') {
     ?>
     <h3>Disponível para novas oportunidades e projetos</h3>
     <?php
 }
-?>
-<?php
+
+
 if ($usuario->trabalhando == 'Sim') {
     ?>
     <h4>Atualmente empregado</h4>
@@ -20,7 +23,7 @@ if ($usuario->trabalhando == 'Sim') {
     <h4>Atualmente desempregado</h4>
     <?php
 }
-?>
+*/?>
 <h4><?= $usuario->getTitulacao()->nome ?> em <?= $usuario->getCurso()->nome ?></h4>
 <h4>Câmpus: <?= $usuario->getCampus()->nome ?></h4>
 <h4>Turma: <?= $usuario->ano_entrada ?>-<?= $usuario->ano_conclusao ?></h4>
