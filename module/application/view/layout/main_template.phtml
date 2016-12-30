@@ -9,10 +9,10 @@
     <meta name="description"
           content="<?= $metaDescription ? $metaDescription : 'IFSP - Egressos' ?>">
 
-    <link rel="icon" href="/public_assets/images/favicon.ico">
+    <link rel="icon" href="<?= $this->getPublicAssetsUrl() ?>/images/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public_assets/css/bootstrap-tagsinput.css">
-    <link rel="stylesheet" href="/public_assets/css/main.css">
+    <link rel="stylesheet" href="<?= $this->getPublicAssetsUrl() ?>/css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="<?= $this->getPublicAssetsUrl() ?>/css/main.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="hidden-xs" href="<?= $this->url('home') ?>">
-                <img src="/public_assets/images/logo.png" width="200" alt="">
+                <img src="<?= $this->getPublicAssetsUrl() ?>/images/logo.png" width="200" alt="">
             </a>
         </div>
     </div>
@@ -44,7 +44,7 @@
     <hr/>
     <div class="row">
         <div class="col-md-4">
-            <img class="logo-footer" src="/public_assets/images/logo-footer.png" alt="Sistema de Egressos">
+            <img class="logo-footer" src="<?= $this->getPublicAssetsUrl() ?>/images/logo-footer.png" alt="Sistema de Egressos">
         </div>
         <div class="col-md-8">
             <h3>Localização</h3>
@@ -69,7 +69,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="/public_assets/js/bootstrap-tagsinput.min.js"></script>
-<script src="/public_assets/js/main.js"></script>
+<script src="<?= $this->getPublicAssetsUrl() ?>/js/bootstrap-tagsinput.min.js"></script>
+<script src="<?= $this->getPublicAssetsUrl() ?>/js/main.js"></script>
 </body>
 </html>
