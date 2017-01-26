@@ -6,7 +6,7 @@ use Egressos\Generator\Controller\GeneratorController;
 use League\Plates\Engine;
 
 /**
- * @author Ricardo Bernardo
+ * @author Ricardo
  */
 class GeneratorControllerFactory
 {

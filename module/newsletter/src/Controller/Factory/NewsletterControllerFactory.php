@@ -18,11 +18,11 @@ class NewsletterControllerFactory
     public function __invoke(ServiceManager $serviceManager)
     {
         $templateEngine = $serviceManager->get('Renderer');
-        $requestManager = $serviceManager->get(RequestManager::class);
+        $requestManager = $serviceManager->get('RequestManager');
         $objectMapper = $serviceManager->get('DataHelper');
         $flashMessenger = $serviceManager->get('FlashMessenger');
         $pdo = $serviceManager->get('PDO');
-        $urlGenerator = $serviceManager->get(UrlGenerator::class);
+        $urlGenerator = $serviceManager->get('UrlGenerator');
 
         return new NewsletterController(
             $templateEngine,

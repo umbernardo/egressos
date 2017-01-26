@@ -19,8 +19,8 @@ class SiteControllerFactory
     {
         $templateEngine = $serviceManager->get('Renderer');
         $dataHelper = $serviceManager->get('DataHelper');
-        $userManager = $serviceManager->get(UserManager::class);
-        $requestManager = $serviceManager->get(RequestManager::class);
+        $userManager = $serviceManager->get('UserManager');
+        $requestManager = $serviceManager->get('RequestManager');
 
         return new SiteController($templateEngine, $dataHelper, $userManager, $requestManager);
     }

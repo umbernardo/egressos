@@ -25,8 +25,8 @@ class LoginControllerFactory
     public function __invoke(ServiceManager $serviceManager)
     {
         $templateEngine = $serviceManager->get('Renderer');
-        $requestManager = $serviceManager->get(RequestManager::class);
-        $userManager = $serviceManager->get(UserManager::class);
+        $requestManager = $serviceManager->get('RequestManager');
+        $userManager = $serviceManager->get('UserManager');
 
         return new LoginController($userManager, $templateEngine, $requestManager);
     }

@@ -26,8 +26,8 @@ class CadastroControllerFactory
         $templateEngine = $serviceManager->get('Renderer');
         $dataHelper = $serviceManager->get('DataHelper');
         $usuarioValidator = $serviceManager->get('UsuarioValidator');
-        $requestManager = $serviceManager->get(RequestManager::class);
-        $pdo = $serviceManager->get(\PDO::class);
+        $requestManager = $serviceManager->get('RequestManager');
+        $pdo = $serviceManager->get('PDO');
         return new CadastroController($requestManager, $templateEngine, $dataHelper, $usuarioValidator, $pdo);
     }
 }

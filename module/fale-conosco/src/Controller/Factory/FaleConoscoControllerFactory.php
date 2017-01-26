@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Ricardo Bernardo
+ * User: Ricardo
  * Date: 17/11/2015
  * Time: 09:59
  */
@@ -24,7 +24,7 @@ final class FaleConoscoControllerFactory
         /** @var Engine $templateEngine */
         $templateEngine = $serviceManager->get('Renderer');
         /** @var RequestManager $requestManager */
-        $requestManager = $serviceManager->get(RequestManager::class);
+        $requestManager = $serviceManager->get('RequestManager');
 
         return new FaleConoscoController($templateEngine, $mailSender, $requestManager);
     }

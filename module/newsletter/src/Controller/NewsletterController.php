@@ -9,7 +9,7 @@ use League\Plates\Engine;
 use PDO;
 
 /**
- * @author Ricardo Bernardo
+ * @author Ricardo
  */
 class NewsletterController
 {

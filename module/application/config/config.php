@@ -4,101 +4,103 @@ return [
     'routes' => [
         'Rota Padrão (Alias da Home)' => [
             'route' => '/',
-            'controller' => \Egressos\Application\Controller\SiteController::class,
+            'controller' => '\Egressos\Application\Controller\SiteController',
             'action' => 'Home'
         ],
         'home' => [
             'route' => '/home',
-            'controller' => \Egressos\Application\Controller\SiteController::class,
+            'controller' => '\Egressos\Application\Controller\SiteController',
             'action' => 'Home'
         ],
         'login' => [
             'route' => '/login',
-            'controller' => \Egressos\Application\Controller\LoginController::class,
+            'controller' => '\Egressos\Application\Controller\LoginController',
             'action' => 'Login'
         ],
         'logout' => [
             'route' => '/logout',
-            'controller' => \Egressos\Application\Controller\LoginController::class,
+            'controller' => '\Egressos\Application\Controller\LoginController',
             'action' => 'Logout'
         ],
         'cadastro' => [
             'route' => '/cadastrar',
-            'controller' => \Egressos\Application\Controller\CadastroController::class,
+            'controller' => '\Egressos\Application\Controller\CadastroController',
             'action' => 'Cadastrar'
         ],
         'dashboard' => [
             'route' => '/dashboard',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'Dashboard'
         ],
         'amigos' => [
             'route' => '/amigos',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'Amigos'
         ],
         'buscar-amigos' => [
             'route' => '/buscar-amigos',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'BuscarAmigos'
         ],
         'adicionar-amigos' => [
             'route' => '/adicionar-amigo/{id}',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'AdicionarAmigo'
         ],
         'amigo-adicionado' => [
             'route' => '/amigo-adicionado',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'AmigoAdicionadoSucesso'
         ],
         'aceitar-amigo' => [
             'route' => '/aceitar-amigo/{id}',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'AceitarAmigo'
         ],
         'editar-perfil' => [
             'route' => 'editar-perfil',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'EditarPerfil'
         ],
         'oportunidades' => [
             'route' => 'oportunidades',
-            'controller' => \Egressos\Application\Controller\OportunidadesController::class,
+            'controller' => '\Egressos\Application\Controller\OportunidadesController',
             'action' => 'Oportunidades'
         ],
         'oportunidades-ver-cidade' => [
             'route' => 'oportunidades/{id}',
-            'controller' => \Egressos\Application\Controller\OportunidadesController::class,
+            'controller' => '\Egressos\Application\Controller\OportunidadesController',
             'action' => 'Oportunidades'
         ],
         'perfil' => [
             'route' => 'perfil/{md5email}',
-            'controller' => \Egressos\Application\Controller\UsuarioController::class,
+            'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'VerPerfil'
         ],
 
     ],
     'services' => [
         //Retrocompatibiliades
-        'RequestManager' => \Cupcake\Request\Factory\RequestManagerFactory::class,
-        'DataHelper' => \Cupcake\ObjectMapper\Factory\ObjectMapperFactory::class,
-        'Renderer' => \Egressos\Application\Renderer\Factory\RendererFactory::class,
-        'UsuarioValidator' => \Egressos\Application\Validator\Factory\UsuarioValidatorFactory::class,
+        'UrlGenerator' => '\Egressos\Application\Controller\Factory\TestFactory',
+        'RequestManager' => '\Cupcake\Request\Factory\RequestManagerFactory',
+        'DataHelper' => '\Cupcake\ObjectMapper\Factory\ObjectMapperFactory',
+        'Renderer' => '\Egressos\Application\Renderer\Factory\RendererFactory',
+        'UsuarioValidator' => '\Egressos\Application\Validator\Factory\UsuarioValidatorFactory',
+        'UserManager' => '\Egressos\Application\Manager\Factory\UserManagerFactory',
         //
-        \Cupcake\Request\RequestManager::class => \Cupcake\Request\Factory\RequestManagerFactory::class,
-        \PDO::class => \Cupcake\GenericFactory\PDOFactory::class,
-        \Cupcake\Messenger\FlashMessenger::class => \Cupcake\Messenger\Factory\FlashMessengerFactory::class,
-        \Cupcake\Url\UrlGenerator::class => \Cupcake\Url\Factory\UrlGeneratorFactory::class,
-        \Cupcake\ObjectMapper\ObjectMapper::class => \Cupcake\ObjectMapper\Factory\ObjectMapperFactory::class,
-        \Egressos\Application\Manager\UserManager::class => \Egressos\Application\Manager\Factory\UserManagerFactory::class,
+        '\Cupcake\Request\RequestManager' => '\Cupcake\Request\Factory\RequestManagerFactory',
+        'PDO' => '\Cupcake\GenericFactory\PDOFactory',
+        '\Cupcake\Messenger\FlashMessenger' => '\Cupcake\Messenger\Factory\FlashMessengerFactory',
+        '\Cupcake\Url\UrlGenerator' => '\Cupcake\Url\Factory\UrlGeneratorFactory',
+        '\Cupcake\ObjectMapper\ObjectMapper' => '\Cupcake\ObjectMapper\Factory\ObjectMapperFactory',
+        '\Egressos\Application\Manager\UserManager' => '\Egressos\Application\Manager\Factory\UserManagerFactory',
     ],
     'controllers' => [
-        \Egressos\Application\Controller\SiteController::class => \Egressos\Application\Controller\Factory\SiteControllerFactory::class,
-        \Egressos\Application\Controller\UsuarioController::class => \Egressos\Application\Controller\Factory\UsuarioControllerFactory::class,
-        \Egressos\Application\Controller\CadastroController::class => \Egressos\Application\Controller\Factory\CadastroControllerFactory::class,
-        \Egressos\Application\Controller\LoginController::class => \Egressos\Application\Controller\Factory\LoginControllerFactory::class,
-        \Egressos\Application\Controller\OportunidadesController::class => \Egressos\Application\Controller\Factory\OportunidadesControllerFactory::class,
+        '\Egressos\Application\Controller\SiteController' => '\Egressos\Application\Controller\Factory\SiteControllerFactory',
+        '\Egressos\Application\Controller\UsuarioController' => '\Egressos\Application\Controller\Factory\UsuarioControllerFactory',
+        '\Egressos\Application\Controller\CadastroController' => '\Egressos\Application\Controller\Factory\CadastroControllerFactory',
+        '\Egressos\Application\Controller\LoginController' => '\Egressos\Application\Controller\Factory\LoginControllerFactory',
+        '\Egressos\Application\Controller\OportunidadesController' => '\Egressos\Application\Controller\Factory\OportunidadesControllerFactory',
     ],
     'renderer' => [
         'viewFolders' => [

@@ -29,6 +29,5 @@ foreach ($config['modules'] as $moduleName => $moduleClassName) {
 }
 $configManager = new ConfigManager();
 $configManager->setConfigFromArray($config);
-
 $app = new Application($configManager);
 return $app;

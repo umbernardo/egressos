@@ -1,8 +1,0 @@
-[18-Nov-2016 10:37:02 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'database' (0)' in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php:27
-Stack trace:
-#0 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php(27): PDO->__construct('mysql:host=data...', 'root', '')
-#1 /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/Service/ServiceManager.php(77): Cupcake\GenericFactory\PDOFactory->__invoke(Object(Cupcake\Service\ServiceManager))
-#2 /home/umbernardo/public_html/egressos/src/painel/includes/inc_menu_vert.php(23): Cupcake\Service\ServiceManager->get('PDO')
-#3 /home/umbernardo/public_html/egressos/src/painel/index.php(25): include('/home/umbernard...')
-#4 {main}
-  thrown in /home/umbernardo/public_html/egressos/src/vendor/cupcakeframework/cupcake4/src/GenericFactory/PDOFactory.php on line 27

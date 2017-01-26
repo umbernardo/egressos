@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Ricardo Bernardo
+ * User: Ricardo
  * Date: 05/11/2015
  * Time: 15:20
  */

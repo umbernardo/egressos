@@ -24,7 +24,7 @@ class UserManagerFactory
     public function __invoke(ServiceManager $serviceManager)
     {
         $dataHelper = $serviceManager->get('DataHelper');
-        $requestManager = $serviceManager->get(RequestManager::class);
+        $requestManager = $serviceManager->get('RequestManager');
         $pdo = $serviceManager->get('PDO');
 
         return new UserManager($dataHelper, $requestManager, $pdo);

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Ricardo Bernardo
+ * User: Ricardo
  * Date: 29/10/2015
  * Time: 15:59
  */
@@ -30,7 +30,7 @@ class RendererFactory
         $config = $serviceManager->get('ConfigManager');
 
         /** @var UrlGenerator $urlGenerator */
-        $urlGenerator = $serviceManager->get(UrlGenerator::class);
+        $urlGenerator = $serviceManager->get('UrlGenerator');
 
         //Instantiate and add view folders
         $renderer = new Engine();
@@ -88,7 +88,7 @@ class RendererFactory
             return $dataHelper->getTextoGeral($cod);
         });
 
-        $requestManager = $serviceManager->get(RequestManager::class);
+        $requestManager = $serviceManager->get('RequestManager');
         $pathInfo = $requestManager->getContext()->getPathInfo();
         $urlAtual = explode('/', ltrim($pathInfo, '/'));
         $paginaAtual = reset($urlAtual);

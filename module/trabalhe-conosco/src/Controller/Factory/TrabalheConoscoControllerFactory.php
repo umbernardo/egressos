@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Ricardo Bernardo
+ * User: Ricardo
  * Date: 17/11/2015
  * Time: 15:21
  */
@@ -27,7 +27,7 @@ class TrabalheConoscoControllerFactory
         /** @var Engine $templateEngine */
         $templateEngine = $serviceManager->get('Renderer');
         /** @var RequestManager $requestManager */
-        $requestManager = $serviceManager->get(RequestManager::class);
+        $requestManager = $serviceManager->get('RequestManager');
 
         return new TrabalheConoscoController($templateEngine, $mailSender, $requestManager);
     }

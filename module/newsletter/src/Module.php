@@ -3,7 +3,7 @@ namespace Egressos\Newsletter;
 
 /**
  * Created by PhpStorm.
- * User: Ricardo Bernardo
+ * User: Ricardo
  * Date: 30/10/2015
  * Time: 10:29
  */

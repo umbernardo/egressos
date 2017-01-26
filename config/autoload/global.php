@@ -1,7 +1,7 @@
 <?php
 
 return array(
-
+/*
     'database' => array(
         'host' => "localhost",
         'user' => "egressos_usr",
@@ -15,5 +15,5 @@ return array(
         'SMTPDebug' => 0,
     ),
     'debug' => false,
-
+*/
 );

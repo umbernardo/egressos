@@ -1,0 +1,18 @@
+{
+    "require": {
+        "cupcakeframework/cupcake4": "1.0.6",
+        "league/plates": "^3.1",
+        "respect/validation": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Egressos\\Mailer\\": "module/mailer/src",
+            "Egressos\\Error\\": "module/error/src",
+            "Egressos\\Generator\\": "module/generator/src",
+            "Egressos\\Newsletter\\": "module/newsletter/src",
+            "Egressos\\FaleConosco\\": "module/fale-conosco/src",
+            "Egressos\\TrabalheConosco\\": "module/trabalhe-conosco/src",
+            "Egressos\\Application\\": "module/application/src"
+        }
+    }
+}

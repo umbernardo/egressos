@@ -6,7 +6,7 @@ use Exception;
 use League\Plates\Engine;
 
 /**
- * @author Ricardo Bernardo
+ * @author Ricardo
  */
 final class ErrorController
 {

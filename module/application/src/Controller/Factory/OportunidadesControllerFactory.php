@@ -26,9 +26,9 @@ class OportunidadesControllerFactory
     public function __invoke(ServiceManager $serviceManager)
     {
         $templateEngine = $serviceManager->get('Renderer');
-        $userManager = $serviceManager->get(UserManager::class);
-        $requestManager = $serviceManager->get(RequestManager::class);
-        $objectMapper = $serviceManager->get(ObjectMapper::class);
+        $userManager = $serviceManager->get('UserManager');
+        $requestManager = $serviceManager->get('RequestManager');
+        $objectMapper = $serviceManager->get('DataHelper');
         return new OportunidadesController($templateEngine, $userManager, $requestManager, $objectMapper);
     }
 }

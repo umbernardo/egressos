@@ -4,7 +4,7 @@ namespace Egressos\Generator\Controller;
 use League\Plates\Engine;
 
 /**
- * @author Ricardo Bernardo
+ * @author Ricardo
  */
 final class GeneratorController
 {
