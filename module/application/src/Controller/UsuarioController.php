@@ -89,7 +89,6 @@ class UsuarioController extends CredentialsRequiredController
         return $this->templateEngine->render('site::adicionado-sucesso');
     }
 
-
     /**
      * @return \Egressos\Application\Model\UserModel
      * @throws \Exception

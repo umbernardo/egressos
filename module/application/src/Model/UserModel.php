@@ -137,6 +137,15 @@ class UserModel
     }
 
     /**
+     * @return bool|false|string
+     */
+    public function getReHashedPassword()
+    {
+        return md5($this->password);
+    }
+
+
+    /**
      * @param $list
      * @param ObjectMapper $dataHelper
      * @return UserModel[]

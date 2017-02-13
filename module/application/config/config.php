@@ -58,24 +58,34 @@ return [
             'action' => 'AceitarAmigo'
         ],
         'editar-perfil' => [
-            'route' => 'editar-perfil',
+            'route' => '/editar-perfil',
             'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'EditarPerfil'
         ],
         'oportunidades' => [
-            'route' => 'oportunidades',
+            'route' => '/oportunidades',
             'controller' => '\Egressos\Application\Controller\OportunidadesController',
             'action' => 'Oportunidades'
         ],
         'oportunidades-ver-cidade' => [
-            'route' => 'oportunidades/{id}',
+            'route' => '/oportunidades/{id}',
             'controller' => '\Egressos\Application\Controller\OportunidadesController',
             'action' => 'Oportunidades'
         ],
         'perfil' => [
-            'route' => 'perfil/{md5email}',
+            'route' => '/perfil/{md5email}',
             'controller' => '\Egressos\Application\Controller\UsuarioController',
             'action' => 'VerPerfil'
+        ],
+        'esqueci-senha' => [
+            'route' => '/esqueci-senha',
+            'controller' => '\Egressos\Application\Controller\PasswordController',
+            'action' => 'EsqueciSenha'
+        ],
+        'recuperar-senha' => [
+            'route' => '/recuperar-senha/{md5Email}/{md5Pass}',
+            'controller' => '\Egressos\Application\Controller\PasswordController',
+            'action' => 'RecuperarSenha'
         ],
 
     ],
@@ -101,6 +111,7 @@ return [
         '\Egressos\Application\Controller\CadastroController' => '\Egressos\Application\Controller\Factory\CadastroControllerFactory',
         '\Egressos\Application\Controller\LoginController' => '\Egressos\Application\Controller\Factory\LoginControllerFactory',
         '\Egressos\Application\Controller\OportunidadesController' => '\Egressos\Application\Controller\Factory\OportunidadesControllerFactory',
+        '\Egressos\Application\Controller\PasswordController' => '\Egressos\Application\Controller\Factory\PasswordControllerFactory',
     ],
     'renderer' => [
         'viewFolders' => [

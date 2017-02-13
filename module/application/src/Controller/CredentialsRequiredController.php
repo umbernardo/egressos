@@ -39,7 +39,8 @@ abstract class CredentialsRequiredController
     private function redirectNotLoggedUser()
     {
         if (false == $this->userManager->usuarioEstaLogado()) {
-            die($this->requestManager->redirect('/login'));
+            header('Location: /login');
+            die();
         }
     }
 

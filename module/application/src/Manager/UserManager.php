@@ -175,12 +175,38 @@ class UserManager
             $query->execute();
             return true;
         } catch (\Exception $e) {
-            die($e->getMessage());
             return false;
         }
         return false;
-
     }
 
+    public function atualizarSenha(UserModel $user)
+    {
+        $originalPassword = $this->generateRandomPassword();
+        $hashedPassword = password_hash($originalPassword, PASSWORD_DEFAULT);
+        try {
+            $sql = "UPDATE `tbl_usuario` SET `password` = :password WHERE `tbl_usuario`.`id` = :id;";
+            $query = $this->pdo->prepare($sql);
+            $query->bindValue('id', $user->id);
+            $query->bindValue('password', $hashedPassword);
+            $query->execute();
+            return $originalPassword;
+        } catch (\Exception $e) {
+            return false;
+        }
+        return false;
+    }
+
+    public function generateRandomPassword()
+    {
+        $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
+        $pass = array();
+        $alphaLength = strlen($alphabet) - 1;
+        for ($i = 0; $i < 8; $i++) {
+            $n = rand(0, $alphaLength);
+            $pass[] = $alphabet[$n];
+        }
+        return implode($pass);
+    }
 
 }
