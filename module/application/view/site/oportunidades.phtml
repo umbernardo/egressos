@@ -13,16 +13,18 @@ $this->layout('layout::main_template', ['title' => 'Oportunidades']);
         <div class="row">
             <h2 class="col-md-8">Exibindo vagas para : <?= $campus->nome ?></h2>
             <div class="col-md-4">
-                <select name="campus" class="form-control" id="select-oportunidades">
+				<!--
+			   <select name="campus" class="form-control" id="select-oportunidades">
                     <option>Selecione uma opção</option>
                     <?php
-                    foreach ($listaCampus as $item) {
+                   // foreach ($listaCampus as $item) {
                         ?>
-                        <option value="/oportunidades/<?= $item->id ?>"><?= $item->nome ?></option>
+                        <option value="oportunidades/< ?= $item->id ?>">< ?= $item->nome ?></option>
                         <?php
-                    }
+                   // }
                     ?>
                 </select>
+				-->
             </div>
         </div>
         <?php
