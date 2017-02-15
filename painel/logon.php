@@ -1,4 +1,5 @@
 <?php
+session_start(); 
 require_once("includes/inc_database.php");
 require_once('includes/inc_funcoeslib.php');
 error_reporting(E_ALL & ~E_NOTICE);
